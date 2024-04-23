@@ -4,3 +4,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* regole header */
+#logo {
+    margin-left: 25px;
+    margin-top: 15px;
+    height: 60px;
+    line-height: 60px;
+    vertical-align: middle;
+}
+
+#title-logo {
+    display: inline-block;
+    font-size: 60px;
+    line-height: 60px;
+    vertical-align: middle;        
+}    
