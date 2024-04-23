@@ -33,11 +33,11 @@ header {
     background-color: white;
 }
 
-/* regole main */
+/* regole main id */
 
 #sup-tags {
     padding-top: 10px;
-    padding-left: 40px;
+    padding-left: 80px;
 }
 
 #barra-superiore {
@@ -51,12 +51,14 @@ header {
 
 #barra-inferiore {
     width: 60%;
-    height: 60px;
+    height: auto;
     margin: 0 auto;
     margin-top: 5px;
     background-color: white;
     border-radius: 10px 10px 0px 0px;
 }
+
+/* regole main class */
 
 .tag-rect {
     display: inline-block;
@@ -67,8 +69,25 @@ header {
     padding-top: 11px;
 }
 
+.todo {
+    padding-top: 30px;
+    padding-left: 80px;
+    
+}
 
+.title {
+    font-size: 30px;
+}
+
+.row::before {
+    content: \2713;
+}
+
+.row {
+    font-size: 20px;
+}
 /* text color rules */
+
 .white-text {
     color: white;
 }
@@ -78,6 +97,7 @@ header {
 }
 
 /* bg-rules */
+
 .blue-bg {
     background-color: rgb(56, 56, 255);
 }
@@ -87,6 +107,7 @@ header {
 }
 
 /* border-rules */
+
 .border-grey {
     border: solid grey;
 }
@@ -95,3 +116,13 @@ header {
     border: solid  rgb(56, 56, 255);
 }
 
+.little-tag {
+    color: white;
+    display: inline-block;
+    width: auto;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 11px;
+    background-color: black;
+}
