@@ -42,9 +42,11 @@ header {
 
 #barra-superiore {
     width: 60%;
+    height: 60px;
     margin: 0 auto;
     margin-top: 20px;
     background-color: white;
+    border-radius: 20% 20% 0% 0%;
 }
 
 .tag-rect {
@@ -80,4 +82,7 @@ header {
     border: solid grey;
 }
 
+.border {
+    border: solid white;
+}
 
