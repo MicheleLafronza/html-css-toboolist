@@ -51,11 +51,11 @@ header {
 
 #barra-inferiore {
     width: 60%;
-    height: auto;
+    height: 75vh;
     margin: 0 auto;
     margin-top: 5px;
     background-color: white;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 0px 0px 10px 10px;
 }
 
 /* regole main class */
@@ -69,21 +69,16 @@ header {
     padding-top: 11px;
 }
 
-.todo {
+.todo-title {
     padding-top: 30px;
     padding-left: 80px;
+    font-size: 30px;
     
 }
 
-.title {
-    font-size: 30px;
-}
-
-.row::before {
-    content: \2713;
-}
-
-.row {
+.todo-row {
+    padding-top: 5px;
+    padding-left: 80px;
     font-size: 20px;
 }
 /* text color rules */
@@ -105,7 +100,31 @@ header {
 .white-bg {
     background-color: white;
 }
+/* tag diff colors */
 
+.ed {
+    background-color: rgb(18, 110, 113);
+}
+
+.qg {
+    background-color: blue;
+}
+
+.rec {
+    background-color: red;
+}
+
+.mob {
+    background-color: brown;
+}
+
+.ws {
+    background-color: orange;
+}
+
+.sl {
+    background-color: black;
+}
 /* border-rules */
 
 .border-grey {
@@ -119,10 +138,27 @@ header {
 .little-tag {
     color: white;
     display: inline-block;
-    width: auto;
-    height: 40px;
+    width: 52px;
+    height: 22px;
     border-radius: 10px;
     text-align: center;
-    padding-top: 11px;
-    background-color: black;
+    padding-top: 7px;
+    font-size: 10px;
+}
+
+
+/* checkmarks rules */
+
+.done {
+    color: green;
+    border: solid green;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+
+.undone {
+    color: red;
+    border: solid red;
+    border-radius: 20px;
+    margin-right: 5px;
 }
